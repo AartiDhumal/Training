@@ -42,7 +42,7 @@ public class StudentMainApplication {
         Student student = new Student();
         student.setRno(120);
         student.setName("Abhishek");
-        student.getAddress("Mumbai");
+        student.getAddress("Mumbai");//?This line is executable?
         student.setPercentage(90.5f);
     }
 }
