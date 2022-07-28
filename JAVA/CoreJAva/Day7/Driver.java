@@ -29,6 +29,7 @@ class Truck extends Vehicle{
 
 public class Driver {
     public static void main(String[] args) {
+        //can we create polymorphic variable instead of creating specific variables of child class?
         Car car = new Car();
         car.engine();
         Truck truck = new Truck();
