@@ -26,7 +26,7 @@ class Tokenizer{
             System.out.println( str.nextToken());
         }
 
-        StringTokenizer ste = new StringTokenizer("3+(20%2) (20/2)","320");
+        StringTokenizer ste = new StringTokenizer("3+(20%2) (20/2)","320"); //add from 0-9
         System.out.println("Operators are:");
         while (ste.hasMoreTokens()){
             System.out.println(ste.nextToken());
